@@ -1,116 +1,16 @@
-# InsightGenie 🚀
+# React + Vite
 
-InsightGenie is an **AI-powered data intelligence platform** that transforms raw CSV datasets into actionable insights.  
-It helps users quickly understand their data by performing automatic analysis, visualizations, and intelligent machine learning recommendations — all without writing code.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## ✨ Features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-- 📊 **Dataset Health Check**
-  - Detects missing values, duplicates, and empty columns
-  - Generates a Dataset Health Score
+## React Compiler
 
-- 📈 **Automatic Visualizations**
-  - Scatter plots
-  - Distribution plots
-  - Correlation heatmaps
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-- 🤖 **Intelligent ML Advisor**
-  - Automatically detects problem type (Regression / Classification / Clustering)
-  - Recommends suitable ML algorithms
-  - Provides clear reasoning for each recommendation
+## Expanding the ESLint configuration
 
-- ⚡ **Performance Optimized**
-  - Server-side data sampling for fast visualizations
-  - Handles large datasets efficiently
-
-- 🎨 **Modern UI**
-  - Neon Dark theme with glassmorphism
-  - Responsive Single Page Application (SPA)
-
----
-
-## 🛠️ Tech Stack
-
-### Backend
-- FastAPI
-- Pandas
-- NumPy
-- Scikit-learn
-
-### Frontend
-- React
-- Vite
-- Tailwind CSS
-- Recharts / Chart.js
-
----
-
-## 🏗️ Project Architecture
-InsightGenie/
-│
-├── backend/
-│ ├── app/
-│ │ ├── main.py
-│ │ ├── routes/
-│ │ ├── services/
-│ │ └── utils/
-│ └── requirements.txt
-│
-├── frontend/
-│ ├── src/
-│ │ ├── components/
-│ │ ├── pages/
-│ │ ├── styles/
-│ │ └── App.jsx
-│ └── package.json
-│
-└── README.md
-
----
-
-## 🚀 How It Works
-
-1. Upload a CSV file
-2. InsightGenie performs:
-   - Data quality checks
-   - Statistical analysis
-   - Visualization generation
-3. The system detects the ML problem type
-4. Recommended ML models are shown with explanations
-
----
-
-## 🎯 Use Cases
-
-- Data exploration and EDA
-- Machine learning model selection
-- Learning data science concepts
-- Rapid dataset understanding for business and analytics
-
----
-
-## 🌟 Impact
-
-InsightGenie democratizes data analysis by combining **data cleaning, visualization, and ML guidance** into one intelligent platform.  
-It saves time, reduces manual effort, and provides explainable insights for both beginners and professionals.
-
----
-
-## 📌 Future Improvements
-
-- Model training and evaluation
-- Downloadable reports
-- Support for Excel and JSON files
-- User authentication and history tracking
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome!  
-Feel free to fork the repository and submit a pull request.
-
----
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
