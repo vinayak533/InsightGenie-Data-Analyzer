@@ -1,37 +1,127 @@
-InsightGenie
+# 🚀 InsightGenie — AI-Powered Data Intelligence Platform
 
-InsightGenie is an intelligent data analysis and machine learning assistant designed to accelerate the workflow from raw datasets to actionable insights.
+InsightGenie is an AI-powered data intelligence platform that transforms raw CSV datasets into actionable insights **while saving hours of manual analysis — without writing a single line of code**.
 
-Project Overview
+It is designed to help students, analysts, and professionals quickly understand their data, assess data quality, visualize patterns, and receive intelligent machine learning recommendations.
 
-InsightGenie features a modern, full-stack architecture:
+---
 
-Backend: Developed using FastAPI, Pandas, and Scikit-learn to manage CSV uploads, perform data quality assessments, compute statistical summaries, generate correlations, and extract data samples for visualization.
+## ✨ Key Features
 
-ML Advisor: Automatically identifies the problem type (classification, regression, or clustering) and provides algorithm recommendations along with clear, detailed explanations.
+### 🔍 Data Quality Analysis
 
-Frontend: Built with React + Vite featuring a Neon Dark theme and responsive layouts. Key functionalities include:
+* Dataset health score
+* Missing value detection
+* Duplicate row checks
+* Uniformity and consistency analysis
 
-Drag-and-drop file uploads and column previews
+### 📊 Instant Data Visualization
 
-Target variable selection with automatic detection
+* Scatter plots
+* Histograms
+* Correlation heatmaps
+* Sample-based visualization for large datasets
 
-Interactive dashboard presenting dataset metrics (rows, columns, data cleanliness)
+### 🤖 Intelligent ML Advisor
 
-Visualizations including scatter plots, histograms, and heatmaps
+* Automatic problem type detection:
 
-Suggested ML models with reasoning and insights
+  * Classification
+  * Regression
+  * Clustering
+* Algorithm recommendations with clear reasoning
+* Class imbalance detection
+* Smart target variable identification
 
-Key Features
+### ⚡ Performance Optimized
 
-Automated Machine Learning Guidance: Provides recommendations tailored to the dataset’s characteristics.
+* Handles large datasets efficiently
+* Server-side sampling
+* Lazy loading
+* Smooth animations and responsive UI
 
-Data Quality & Health Monitoring: Detects class imbalance and evaluates overall dataset health.
+---
 
-Scalable Performance: Optimized to handle large datasets efficiently with lazy loading, smooth animations, and polished UI elements.
+## 🛠️ Tech Stack
 
-User-Centric Interface: Intuitive dashboards and interactive visualizations for seamless data exploration.
+### Backend
 
-Benefits
+* FastAPI
+* Pandas
+* Scikit-learn
 
-InsightGenie simplifies the data science workflow by combining robust backend analytics with an engaging frontend experience, making it ideal for both novice and experienced practitioners looking to derive insights and build ML models efficiently.
+### Frontend
+
+* React
+* Vite
+* Modern Neon Dark UI
+
+---
+
+## 🧠 How InsightGenie Works
+
+1. Upload a CSV file via drag-and-drop
+2. Automatic data profiling and health analysis
+3. Target variable detection (or manual selection)
+4. Visualization and statistical summaries
+5. ML problem type detection and model recommendations
+
+---
+
+## 🎯 Use Cases
+
+* Exploratory Data Analysis (EDA)
+* Academic and student projects
+* Rapid dataset evaluation
+* Machine learning workflow planning
+* Beginner-friendly data analysis
+
+---
+
+## 🚀 Getting Started
+
+### Backend Setup
+
+```bash
+cd backend
+pip install -r requirements.txt
+uvicorn main:app --reload
+```
+
+### Frontend Setup
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+---
+
+## 📌 Project Goals
+
+* Democratize data analysis
+* Reduce manual EDA time
+* Provide intelligent, explainable ML guidance
+* Enable faster, data-driven decision-making
+
+---
+
+## 🔮 Future Enhancements
+
+* Model training and evaluation
+* AutoML pipelines
+* Dataset comparison
+* Exportable reports
+* Cloud deployment
+
+---
+
+## 👨‍💻 Author
+
+**Vinayak K V**
+GitHub: [https://github.com/vinayak533](https://github.com/vinayak533)
+LinkedIn: [https://linkedin.com/in/vinayak-k-v-b1645a359](https://linkedin.com/in/vinayak-k-v-b1645a359)
+
+---
+
