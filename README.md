@@ -1,16 +1,35 @@
-# React + Vite
+InsightGenie
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+InsightGenie is a smart data analysis and machine learning assistant designed to streamline the workflow from raw data to actionable insights.
 
-Currently, two official plugins are available:
+Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The project features a modern, full-stack architecture with a Python backend and a React frontend:
 
-## React Compiler
+Backend: Built with FastAPI, Pandas, and Scikit-learn. Handles CSV uploads, data quality checks, statistical summaries, correlations, and sample extraction for visualizations.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+ML Advisor: Automatically detects the type of problem (classification, regression, or clustering) and recommends suitable algorithms with clear, step-by-step explanations.
 
-## Expanding the ESLint configuration
+Frontend: Developed with React + Vite using a Neon Dark theme. Features include:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Responsive design for multiple screen sizes
+
+Drag-and-drop file uploads and column previews
+
+Target variable selection and automatic detection
+
+Interactive dashboard showing key metrics (rows, columns, data cleanliness)
+
+Visualizations such as scatter plots, histograms, and heatmaps
+
+Recommended ML models with reasoning
+
+Key Features
+
+Automated Insights: Suggests ML models based on dataset characteristics.
+
+Data Health Analysis: Checks for class imbalance and generates realistic dataset health scores.
+
+Performance Optimizations: Handles large datasets efficiently with lazy loading, animations, and polished UI components.
+
+User-Friendly Interface: Intuitive dashboards and interactive visualizations to facilitate data exploration
