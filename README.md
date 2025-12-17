@@ -1,35 +1,37 @@
 InsightGenie
 
-InsightGenie is a smart data analysis and machine learning assistant designed to streamline the workflow from raw data to actionable insights.
+InsightGenie is an intelligent data analysis and machine learning assistant designed to accelerate the workflow from raw datasets to actionable insights.
 
-Overview
+Project Overview
 
-The project features a modern, full-stack architecture with a Python backend and a React frontend:
+InsightGenie features a modern, full-stack architecture:
 
-Backend: Built with FastAPI, Pandas, and Scikit-learn. Handles CSV uploads, data quality checks, statistical summaries, correlations, and sample extraction for visualizations.
+Backend: Developed using FastAPI, Pandas, and Scikit-learn to manage CSV uploads, perform data quality assessments, compute statistical summaries, generate correlations, and extract data samples for visualization.
 
-ML Advisor: Automatically detects the type of problem (classification, regression, or clustering) and recommends suitable algorithms with clear, step-by-step explanations.
+ML Advisor: Automatically identifies the problem type (classification, regression, or clustering) and provides algorithm recommendations along with clear, detailed explanations.
 
-Frontend: Developed with React + Vite using a Neon Dark theme. Features include:
-
-Responsive design for multiple screen sizes
+Frontend: Built with React + Vite featuring a Neon Dark theme and responsive layouts. Key functionalities include:
 
 Drag-and-drop file uploads and column previews
 
-Target variable selection and automatic detection
+Target variable selection with automatic detection
 
-Interactive dashboard showing key metrics (rows, columns, data cleanliness)
+Interactive dashboard presenting dataset metrics (rows, columns, data cleanliness)
 
-Visualizations such as scatter plots, histograms, and heatmaps
+Visualizations including scatter plots, histograms, and heatmaps
 
-Recommended ML models with reasoning
+Suggested ML models with reasoning and insights
 
 Key Features
 
-Automated Insights: Suggests ML models based on dataset characteristics.
+Automated Machine Learning Guidance: Provides recommendations tailored to the dataset’s characteristics.
 
-Data Health Analysis: Checks for class imbalance and generates realistic dataset health scores.
+Data Quality & Health Monitoring: Detects class imbalance and evaluates overall dataset health.
 
-Performance Optimizations: Handles large datasets efficiently with lazy loading, animations, and polished UI components.
+Scalable Performance: Optimized to handle large datasets efficiently with lazy loading, smooth animations, and polished UI elements.
 
-User-Friendly Interface: Intuitive dashboards and interactive visualizations to facilitate data exploration
+User-Centric Interface: Intuitive dashboards and interactive visualizations for seamless data exploration.
+
+Benefits
+
+InsightGenie simplifies the data science workflow by combining robust backend analytics with an engaging frontend experience, making it ideal for both novice and experienced practitioners looking to derive insights and build ML models efficiently.
