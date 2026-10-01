@@ -87,38 +87,41 @@ Python dependencies are listed in [backend/requirements.txt](backend/requirement
 
 These six screenshots are captures of the actual application. The dashboard examples use the included [synthetic customer dataset](examples/customer-retention.csv): 488 rows, five columns, 34 missing cells, and eight duplicate rows. The application calculates the displayed 92.2% health score; it is a data-quality heuristic, not model accuracy.
 
+### CSV upload
+
+Start an analysis by dragging a CSV onto the upload area or choosing a file.
+
+![CSV upload landing page with drag-and-drop area and file picker](images/01-csv-upload.png)
+
 ### Distribution and ML guidance
 
 A spending histogram sits alongside dataset health, column profiles, regression recommendations for `spend`, and the proposed workflow.
 
 ![Dashboard showing spending distribution, health metrics, and regression guidance](images/02-spend-distribution-and-ml-advice.png)
 
-### Explore relationships and data quality
+### Category frequencies
 
-Click a screenshot to view the original at full size.
+Compare Basic, Standard, and Premium plans, including the missing-value category.
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="images/03-customer-plan-counts.png"><img src="images/03-customer-plan-counts.png" alt="Count plot for customer plans, including missing values" width="100%"></a>
-      <br><strong>Category frequencies</strong><br>Compare Basic, Standard, and Premium plans, including the missing-value category.
-    </td>
-    <td width="50%" valign="top">
-      <a href="images/04-tenure-spend-scatter.png"><img src="images/04-tenure-spend-scatter.png" alt="Scatter plot of customer tenure versus spending with axis selectors" width="100%"></a>
-      <br><strong>Numeric relationships</strong><br>Select tenure and spending as the scatter plot axes to explore their relationship.
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="images/05-missing-values-and-data-quality.png"><img src="images/05-missing-values-and-data-quality.png" alt="Missing-value bars for age, spending, and plan alongside dataset health" width="100%"></a>
-      <br><strong>Missing-value inspection</strong><br>Locate incomplete columns and review the accompanying cleaning guidance.
-    </td>
-    <td width="50%" valign="top">
-      <a href="images/06-raw-data-preview.png"><img src="images/06-raw-data-preview.png" alt="Data Preview tab showing the first five records across all five columns" width="100%"></a>
-      <br><strong>Source data preview</strong><br>Inspect the first five records while keeping health and ML guidance in view.
-    </td>
-  </tr>
-</table>
+![Count plot for customer plans, including missing values](images/03-customer-plan-counts.png)
+
+### Numeric relationships
+
+Select tenure and spending as the scatter plot axes to explore their relationship.
+
+![Scatter plot of customer tenure versus spending with axis selectors](images/04-tenure-spend-scatter.png)
+
+### Missing-value inspection
+
+Locate incomplete columns and review the accompanying cleaning guidance.
+
+![Missing-value bars for age, spending, and plan alongside dataset health](images/05-missing-values-and-data-quality.png)
+
+### Source data preview
+
+Inspect the first five records while keeping health and ML guidance in view.
+
+![Data Preview tab showing the first five records across all five columns](images/06-raw-data-preview.png)
 
 <a id="setup"></a>
 
